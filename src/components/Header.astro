@@ -1,0 +1,15 @@
+---
+import Container from "../components/Container.astro";
+import MainNav from "../components/MainNav.astro";
+
+const { title } = Astro.props;
+---
+
+<head>
+    <Container>
+        <div class="flex items-center">
+            <a href="/">{title}</a>
+            <MainNav class="ml-auto" />
+        </div>
+    </Container>
+</head>

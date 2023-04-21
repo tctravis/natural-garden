@@ -1,0 +1,9 @@
+---
+const { class:className } = Astro.props;
+---
+
+<nav class:list={['p-4', className]}>
+    <a href="/">Home</a>
+    <a href="/about">About me</a>
+    <a href="/gallery">Gallery</a>
+</nav>
