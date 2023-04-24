@@ -1,0 +1,25 @@
+---
+import { Image } from '@astrojs/image/components';
+
+import PageSection from "../components/PageSection.astro";
+
+const logos = [{
+    src: '/images/rhs.png',
+    alt: 'RHS',
+    width: 259,
+    height: 194,
+    format: 'png'
+},{
+    src: '/images/nocn@2x.png',
+    alt: 'NOCN',
+    width: 222,
+    height: 267,
+    format: 'png'
+}]
+---
+
+<PageSection>
+    <div class="flex gap-x-2 items-center justify-center">
+        {logos.map((image) => <Image src={image.src} alt={image.alt} width={image.width} height={image.height} format={image.format} />)}  
+    </div>
+</PageSection>

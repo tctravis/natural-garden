@@ -1,0 +1,12 @@
+---
+import PageSection from "../components/PageSection.astro";
+
+const { quote, source } = Astro.props;
+---
+
+<PageSection>
+    <div class="w-full min-h-[10rem] flex flex-col items-center justify-center">
+        <blockquote class="text-xl">{quote}</blockquote>
+        <cite>{source}</cite>
+    </div>
+</PageSection>

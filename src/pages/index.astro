@@ -1,8 +1,22 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Hero from '../components/Hero.astro';
+import Logos from '../components/Logos.astro';
+import Testimonial from '../components/Testimonial.astro';
+
+const pageTitle = 'RHS-qualified organic gardener and garden designer'
+const testimonials = [{
+	quote: 'Great!',
+	source: 'Meg and Andrew'
+},{
+	quote: 'Hard worker',
+	source: 'Rebecca'
+}]
 ---
 
-<Layout title="The natural garden">
-	<Hero pageTitle="An organic gardener based in Kendal" />
+<Layout pageTitle={pageTitle}>
+    <Hero pageTitle={pageTitle} />
+	<Testimonial quote={testimonials[0].quote} source={testimonials[0].source} />
+	<Testimonial quote={testimonials[1].quote} source={testimonials[1].source} />
+	<Logos />
 </Layout>

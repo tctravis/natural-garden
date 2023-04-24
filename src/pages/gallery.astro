@@ -1,8 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import PageHeader from '../components/PageHeader.astro';
+
+const pageTitle = 'Gallery'
 ---
 
-<Layout title="The natural garden">
-    <PageHeader pageTitle="Gallery" />
+<Layout pageTitle={pageTitle}>
+    <PageHeader pageTitle={pageTitle} />
 </Layout>
