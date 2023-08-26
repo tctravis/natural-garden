@@ -5,11 +5,8 @@ import Logos from "../components/Logos.astro";
 import CardSection from "../components/CardSection.astro";
 import Testimonial from "../components/Testimonial.astro";
 
-import { siteTitle } from "../data/site.json";
+import { siteTitle, siteStrapline } from "../data/site.json";
 
-const pageTitle = "Kendal Natural Gardens";
-const pageSubTitle =
-  "Tending and designing beautiful, resilient and biodiverse gardens in and around Kendal";
 const services = {
   sectionTitle: "Services",
   cards: [
@@ -63,8 +60,8 @@ const testimonials = [
 ];
 ---
 
-<Layout pageTitle={pageTitle}>
-  <Hero pageTitle={siteTitle} pageSubTitle={pageSubTitle} />
+<Layout pageTitle={siteTitle}>
+  <Hero pageTitle={siteTitle} pageSubTitle={siteStrapline} />
   <CardSection sectionTitle={services.sectionTitle} cards={services.cards} />
   <Testimonial quote={testimonials[0].quote} source={testimonials[0].source} />
   <Logos />
