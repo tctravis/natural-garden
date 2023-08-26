@@ -1,0 +1,9 @@
+{
+    "siteTitle": "Sanctuary Gardens",
+    "theme": {
+        "bg" : {
+            "odd-row": "odd:bg-lime-50",
+            "even-row": "even:bg-lime-100"
+        }
+    }
+}

@@ -1,22 +1,31 @@
 ---
-import Header from '../components/Header.astro';
+import Header from "../components/Header.astro";
 
 const { pageTitle } = Astro.props;
 
-const siteTitle = 'The Natural Garden'
+import {siteTitle} from '../data/site.json';
+import '../styles/theme.css';
+
+// const siteTitle = "Kendal Natural Gardens";
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{siteTitle} - {pageTitle}</title>
-	</head>
-	<body>
-		<Header title={siteTitle} />
-		<main><slot /></main>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{siteTitle} - {pageTitle}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Proza+Libre:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-proza-libre">
+    <Header title={siteTitle} />
+    <main><slot /></main>
+  </body>
 </html>

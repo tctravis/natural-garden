@@ -1,22 +1,72 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Hero from '../components/Hero.astro';
-import Logos from '../components/Logos.astro';
-import Testimonial from '../components/Testimonial.astro';
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero.astro";
+import Logos from "../components/Logos.astro";
+import CardSection from "../components/CardSection.astro";
+import Testimonial from "../components/Testimonial.astro";
 
-const pageTitle = 'RHS-qualified organic gardener and garden designer'
-const testimonials = [{
-	quote: 'Great!',
-	source: 'Meg and Andrew'
-},{
-	quote: 'Hard worker',
-	source: 'Rebecca'
-}]
+import { siteTitle } from "../data/site.json";
+
+const pageTitle = "Kendal Natural Gardens";
+const pageSubTitle =
+  "Tending and designing beautiful, resilient and wildlife-friendly gardens in and around Kendal";
+const services = {
+  sectionTitle: "Services",
+  cards: [
+    {
+      title: "Garden and planting design",
+      body: "From refreshing a tired border to re-imagining your entire garden, from idea sketches to detailed plans, we can provide design services to suit your requirements and budget.",
+      href: "/design",
+      img: {
+        src: "/images/wildflower-meadow.jpg",
+        alt: "Wildflower meadow",
+        width: 800,
+        height: 559,
+        format: "jpg",
+      },
+    },
+    {
+      title: "Small garden maintenance",
+      body: "Rebecca",
+      href: "/maintenance",
+      img: {
+        src: "/images/brunnera-euphorbia.jpg",
+        alt: "Brunnera and Euphorbia",
+        width: 800,
+        height: 600,
+        format: "jpg",
+      },
+    },
+    {
+      title: "Wildlife-friendly garden projects",
+      body: "Rebecca",
+      href: "/wildlife",
+      img: {
+        src: "/images/sea-holly-moth.jpg",
+        alt: "Sea holly with moth on it",
+        width: 800,
+        height: 600,
+        format: "jpg",
+      },
+    },
+  ],
+};
+const testimonials = [
+  {
+    quote: "Great!",
+    source: "Meg and Andrew",
+  },
+  {
+    quote: "Hard worker",
+    source: "Rebecca",
+  },
+];
 ---
 
 <Layout pageTitle={pageTitle}>
-    <Hero pageTitle={pageTitle} />
-	<Testimonial quote={testimonials[0].quote} source={testimonials[0].source} />
-	<Testimonial quote={testimonials[1].quote} source={testimonials[1].source} />
-	<Logos />
+  <Hero pageTitle={siteTitle} pageSubTitle={pageSubTitle} />
+  <CardSection sectionTitle={services.sectionTitle} cards={services.cards} />
+  <Testimonial quote={testimonials[0].quote} source={testimonials[0].source} />
+  <Testimonial quote={testimonials[1].quote} source={testimonials[1].source} />
+  <Logos />
 </Layout>

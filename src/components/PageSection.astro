@@ -1,5 +1,7 @@
 ---
 import Container from "../components/Container.astro";
+
+import {theme} from '../data/site.json';
 ---
 
-<section class="even:bg-gray-100"><Container><slot /></Container></section>
+<section class={`odd:bg-content-section-odd even:bg-content-section-even py-8`}><Container><slot /></Container></section>

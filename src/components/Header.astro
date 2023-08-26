@@ -5,10 +5,10 @@ import MainNav from "../components/MainNav.astro";
 const { title } = Astro.props;
 ---
 
-<header class="bg-red-300">
+<header class="Header bg-header-bg text-header-text">
     <Container>
         <div class="flex flex-col sm:flex-row items-center py-4">
-            <a class="font-bold mb-2 sm:mb-0" href="/">{title}</a>
+            <a class="font-cormorant text-2xl md:text-xl uppercase mb-2 sm:mb-0" href="/">{title}</a>
             <MainNav class="sm:ml-auto" />
         </div>
     </Container>

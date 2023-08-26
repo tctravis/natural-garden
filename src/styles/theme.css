@@ -1,0 +1,14 @@
+:root {
+    --lime-950: #1a2e05;
+
+    --stone-50: #fafaf9;
+    --stone-100: #f5f5f4;
+
+    --content-section-bg-odd: var( --stone-50);
+    --content-section-bg-even: var(--stone-100);
+
+    --headers-color: var(--lime-950);
+
+    --header-bg-color: var(--lime-950);
+    --header-text-color: #fff;
+}

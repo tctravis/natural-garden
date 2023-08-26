@@ -1,1 +1,5 @@
-<div class="container mx-auto px-4"><slot /></div>
+---
+const { bg } = Astro.props;
+---
+
+<div class:list={[bg]}><div class="container mx-auto px-4"><slot /></div></div>
