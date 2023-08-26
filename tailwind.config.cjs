@@ -12,11 +12,15 @@ module.exports = {
 					bg: 'var(--header-bg-color)',
 					text: 'var(--header-text-color)',
 				},
+				footer: {
+					bg: 'var(--footer-bg-color)',
+					text: 'var(--footer-text-color)',
+				},
 				headers: 'var(--headers-color)',
 			},
 			fontFamily: {
-				'cormorant': ['Cormorant', 'serif'],
-				'proza-libre': ['Proza Libre', 'sans-serif'],
+				'headers': ['Cormorant', 'serif'],
+				'body': ['Proza Libre', 'sans-serif'],
 			},
 		},
 	},

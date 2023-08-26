@@ -1,25 +1,49 @@
 ---
-import { Image } from '@astrojs/image/components';
+import { Image } from "@astrojs/image/components";
 
 import PageSection from "../components/PageSection.astro";
 
-const logos = [{
-    src: '/images/rhs.png',
-    alt: 'RHS',
-    width: 259,
-    height: 194,
-    format: 'png'
-},{
-    src: '/images/nocn@2x.png',
-    alt: 'NOCN',
-    width: 222,
-    height: 267,
-    format: 'png'
-}]
+const logos = [
+  {
+    text: "RHS Level 2 qualification in Horticultural Theory and Practice",
+    img: {
+      src: "/images/rhs.png",
+      alt: "RHS",
+      width: 259,
+      height: 194,
+      format: "png",
+    },
+  },
+  {
+    text: "NOCN Level 3 qualification in Garden and Planting Design",
+    img: {
+      src: "/images/nocn@2x.png",
+      alt: "NOCN",
+      width: 222,
+      height: 267,
+      format: "png",
+    },
+  },
+];
 ---
 
 <PageSection>
-    <div class="flex flex-wrap gap-x-2 items-center justify-center">
-        {logos.map((image) => <Image src={image.src} alt={image.alt} width={image.width} height={image.height} format={image.format} />)}  
-    </div>
+  <div class="flex flex-wrap items-start justify-center">
+    {
+      logos.map((logo) => (
+        <div class="flex gap-4 w-1/2">
+          <div class="w-48">
+            <Image
+              src={logo.img.src}
+              alt={logo.img.alt}
+              width={logo.img.width}
+              height={logo.img.height}
+              format={logo.img.format}
+            />
+          </div>
+          <p>{logo.text}</p>
+        </div>
+      ))
+    }
+  </div>
 </PageSection>

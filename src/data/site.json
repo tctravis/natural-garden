@@ -1,5 +1,6 @@
 {
     "siteTitle": "Sanctuary Gardens",
+    "siteEmail": "tobytravis@gmail.com",
     "theme": {
         "bg" : {
             "odd-row": "odd:bg-lime-50",

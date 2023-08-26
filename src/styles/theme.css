@@ -11,4 +11,6 @@
 
     --header-bg-color: var(--lime-950);
     --header-text-color: #fff;
+    --footer-bg-color: var(--lime-950);
+    --footer-text-color: #fff;
 }

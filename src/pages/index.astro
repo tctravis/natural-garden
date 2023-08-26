@@ -9,43 +9,43 @@ import { siteTitle } from "../data/site.json";
 
 const pageTitle = "Kendal Natural Gardens";
 const pageSubTitle =
-  "Tending and designing beautiful, resilient and wildlife-friendly gardens in and around Kendal";
+  "Tending and designing beautiful, resilient and biodiverse gardens in and around Kendal";
 const services = {
   sectionTitle: "Services",
   cards: [
     {
       title: "Garden and planting design",
-      body: "From refreshing a tired border to re-imagining your entire garden, from idea sketches to detailed plans, we can provide design services to suit your requirements and budget.",
+      body: "From refreshing a tired border to re-imagining your entire garden, collaborate with us to realise the full potential of your outdoor space",
       href: "/design",
       img: {
-        src: "/images/wildflower-meadow.jpg",
-        alt: "Wildflower meadow",
+        src: "/images/sedum-geranium.jpg",
+        alt: "Deep purple sedum with geranium phaeum leaf",
         width: 800,
-        height: 559,
+        height: 450,
         format: "jpg",
       },
     },
     {
       title: "Small garden maintenance",
-      body: "Rebecca",
+      body: "Regular, reliable, light-touch garden maintenance by an RHS-qualified horticulturalist using organic, planet-friendly methods",
       href: "/maintenance",
       img: {
-        src: "/images/brunnera-euphorbia.jpg",
+        src: "/images/brunnera-euphorbia-16x9.jpg",
         alt: "Brunnera and Euphorbia",
         width: 800,
-        height: 600,
+        height: 450,
         format: "jpg",
       },
     },
     {
-      title: "Wildlife-friendly garden projects",
-      body: "Rebecca",
+      title: "Wildlife-friendly projects",
+      body: "Add features to enhance biodiversity - from small ponds teeming with life to wildflower micro-meadows to attract pollinators",
       href: "/wildlife",
       img: {
-        src: "/images/sea-holly-moth.jpg",
+        src: "/images/sea-holly-moth-16x9.jpg",
         alt: "Sea holly with moth on it",
         width: 800,
-        height: 600,
+        height: 450,
         format: "jpg",
       },
     },
@@ -53,12 +53,12 @@ const services = {
 };
 const testimonials = [
   {
-    quote: "Great!",
-    source: "Meg and Andrew",
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed aliquam tellus. Aliquam convallis blandit dolor, eu varius magna volutpat a.!",
+    source: "Meg, Warton",
   },
   {
-    quote: "Hard worker",
-    source: "Rebecca",
+    quote: "Vestibulum mattis risus vel facilisis ullamcorper. Aliquam erat volutpat. Nulla facilisi. Duis vestibulum felis et iaculis accumsan.",
+    source: "Rebecca, Warton",
   },
 ];
 ---
@@ -67,6 +67,6 @@ const testimonials = [
   <Hero pageTitle={siteTitle} pageSubTitle={pageSubTitle} />
   <CardSection sectionTitle={services.sectionTitle} cards={services.cards} />
   <Testimonial quote={testimonials[0].quote} source={testimonials[0].source} />
-  <Testimonial quote={testimonials[1].quote} source={testimonials[1].source} />
   <Logos />
+  <Testimonial quote={testimonials[1].quote} source={testimonials[1].source} />
 </Layout>
