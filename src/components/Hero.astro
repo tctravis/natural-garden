@@ -1,18 +1,48 @@
 ---
 import Container from "../components/Container.astro";
+import { Image } from "@astrojs/image/components";
 
 const { pageTitle, pageSubTitle } = Astro.props;
 ---
 
 <header>
-  <Container bg="bg-[url('/images/fern-corsican-mint.jpg')] bg-cover">
-    <div
-      class="w-full min-h-[20rem] flex items-center justify-end text-right"
-    >
-      <div class="max-w-md bg-[rgba(255,255,255,0.9)] space-y-4 p-6 rounded-lg">
+  <Container
+    wrapperClasses="bg-[url('/images/fern-corsican-mint.jpg')] bg-cover pt-16"
+  >
+
+    <div class="w-full flex flex-col pb-6">
+      <div class="max-w-md bg-[rgba(255,255,255,0.9)] text-right self-end space-y-4 p-6 mb-16 rounded-lg">
         <h1 class="text-5xl font-headers text-headers">{pageTitle}</h1>
         <p class="text-md">{pageSubTitle}</p>
       </div>
+      <div class="flex flex-wrap gap-4 self-start items-center justify-start">
+        <div
+          class="p-2 bg-[rgba(255,255,255,0.9)] rounded-lg h-12 flex items-center justify-center gap-2"
+        >
+          <Image
+            src="/images/rhs.svg"
+            alt="RHS logo"
+            width={75}
+            height={36}
+            format="svg"
+          />
+          <p class="text-xs">RHS Horticultural Theory and Practice, Level 2 </p>
+        </div>
+        <div
+        class="p-2 bg-[rgba(255,255,255,0.9)] rounded-lg h-12 flex items-center justify-center gap-2"
+      >
+        <Image
+          src="/images/nocn-qualified.png"
+          alt="RHS logo"
+          width={36}
+          height={36}
+          format="png"
+        />
+        <p class="text-xs">NOCN Garden and Planting Design, Level 3</p>
+      </div>
+      </div>
     </div>
+
+
   </Container>
 </header>
