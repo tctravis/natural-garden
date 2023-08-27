@@ -19,8 +19,12 @@ module.exports = {
 				headers: 'var(--headers-color)',
 			},
 			fontFamily: {
-				'headers': ['Cormorant', 'serif'],
-				'body': ['Proza Libre', 'sans-serif'],
+				headers: 'var(--font-family-headers)',
+				body: 'var(--font-family-body)',
+			},
+			fontWeight: {
+				'weight-headers': 'var(--font-weight-headers)',
+				'weight-body': 'var(--font-weight-body)',
 			},
 		},
 	},
