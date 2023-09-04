@@ -1,10 +1,9 @@
 ---
+import PageSection from "../components/PageSection.astro";
+
 const { pageTitle } = Astro.props;
 ---
 
-<header class="PageHeader">
-    <div class="container mx-auto">
-        <h1 class="color-lime-900">{pageTitle}</h1>
-        <p>Page header</p>
-    </div>
-</header>
+<PageSection Element="header">
+  <h1 class="color-lime-900">{pageTitle}</h1>
+</PageSection>
