@@ -1,0 +1,23 @@
+{
+    "pageTitle": "Home",
+    "sections": [
+        {
+            "settings": {
+                "type": "hero"
+            },
+            "content": {
+                "title": "Our Approach",
+                "body": "We love tending smaller gardens in which plants play the starring role. \nWhether working with an existing border or starting from scratch, we love making planting schemes look as good as they can throughout the year.\nWith a wide plant knowledge and understanding of planting design principles, we can work with you to create plant communities which look right together, and are happy in the specific conditions of your garden.\nOur primary goal is to ensure your plants are as healthy and vigorous as possible. This is achieved through carefully matching plants to their environment and improving the soil with organic matter.  \nThriving plants not only look better for longer, they are also naturally resistant to pests, disease and the varied challenges of extreme and unpredictable weather.\nWe specialise in tending gardens with a natural feel - ranging from light-touch maintenance for 'wild' gardens to more designed planting schemes which mimic natural ecosystems - woodland, prairie, bog or gravel gardens."
+            }
+        },
+        {
+            "settings": {
+                "type": "text-and-image"
+            },
+            "content": {
+                "title": "Our Approach",
+                "body": "We love tending smaller gardens in which plants play the starring role.\n\nWe specialise in tending gardens with a natural feel - ranging from light-touch maintenance for 'wild' gardens to more designed planting schemes which mimic natural ecosystems - woodland, prairie, bog or gravel gardens.\n\nWhether working with an existing border or starting from scratch, we work to make planting schemes look as good as they can throughout the year, while providing valuable food and habitat for wildlife.\n\nDrawing on a wide plant knowledge and applying design principles, we create plant communities which look right together, and are happy in the specific conditions of your garden.\n\nThe foundation is ensuring your plants are as healthy and vigorous as possible by carefully matching plants to their environment and improving the soil with organic matter.\n\nHealthy plants not only look better for longer, they are also naturally resistant to pests, disease and the varied challenges of extreme and unpredictable weather."
+            }
+        }
+    ]
+}

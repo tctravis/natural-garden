@@ -1,11 +1,14 @@
 ---
+import { Image } from "@astrojs/image/components";
+
 import Layout from "../layouts/Layout.astro";
-import Hero from "../components/Hero.astro";
-import Logos from "../components/Logos.astro";
-import CardSection from "../components/CardSection.astro";
-import Testimonial from "../components/Testimonial.astro";
+import SectionHero from "../components/SectionHero.astro";
+import SectionCard from "../components/SectionCard.astro";
+import SectionQuote from "../components/SectionQuote.astro";
+import SectionTextImage from "../components/SectionTextImage.astro";
 
 import { siteTitle, siteStrapline } from "../data/site.json";
+import { pageTitle, sections } from "../data/home.json";
 
 const ourApproach = {
   sectionTitle: "Our Approach",
@@ -48,7 +51,7 @@ const ourApproach = {
       },
     },
   ],
-}
+};
 
 const services = {
   sectionTitle: "Garden Services",
@@ -94,21 +97,64 @@ const services = {
 };
 const testimonials = [
   {
-    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed aliquam tellus. Aliquam convallis blandit dolor, eu varius magna volutpat a.!",
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed aliquam tellus. Aliquam convallis blandit dolor, eu varius magna volutpat a.!",
     source: "Meg, Warton",
   },
   {
-    quote: "Vestibulum mattis risus vel facilisis ullamcorper. Aliquam erat volutpat. Nulla facilisi. Duis vestibulum felis et iaculis accumsan.",
+    quote:
+      "Vestibulum mattis risus vel facilisis ullamcorper. Aliquam erat volutpat. Nulla facilisi. Duis vestibulum felis et iaculis accumsan.",
     source: "Rebecca, Warton",
   },
 ];
 ---
 
 <Layout pageTitle={siteTitle}>
-  <Hero pageTitle={siteTitle} pageSubTitle={siteStrapline} />
-  <CardSection sectionTitle={services.sectionTitle} cards={services.cards} cardsPerRow={services.cardsPerRow} />
-  <Testimonial quote={testimonials[0].quote} source={testimonials[0].source} />
-  <CardSection sectionTitle={ourApproach.sectionTitle} cards={ourApproach.cards} cardsPerRow={ourApproach.cardsPerRow}  />
-  <!-- <Logos /> -->
-  <Testimonial quote={testimonials[1].quote} source={testimonials[1].source} />
+  <SectionHero pageTitle={siteTitle} pageSubTitle={siteStrapline} wrapperClasses="bg-[url('/images/fern-corsican-mint.jpg')] bg-cover pt-16">
+    <div class="flex flex-wrap gap-4 self-start items-center justify-start">
+      <div
+        class="p-2 bg-[rgba(255,255,255,0.9)] rounded-lg h-12 flex items-center justify-center gap-2"
+      >
+        <Image
+          src="/images/rhs.svg"
+          alt="RHS logo"
+          width={75}
+          height={36}
+          format="svg"
+        />
+        <p class="text-xs">RHS Horticultural Theory and Practice, Level 2</p>
+      </div>
+      <div
+        class="p-2 bg-[rgba(255,255,255,0.9)] rounded-lg h-12 flex items-center justify-center gap-2"
+      >
+        <Image
+          src="/images/nocn-qualified.png"
+          alt="RHS logo"
+          width={36}
+          height={36}
+          format="png"
+        />
+        <p class="text-xs">NOCN Garden and Planting Design, Level 3</p>
+      </div>
+    </div>
+  </SectionHero>
+  {
+    sections.map((section) => (
+      section.settings.type === 'text-and-image' && <SectionTextImage settings={section.settings} content={section.content} />
+      // <div>{section.content.title}</div>
+    ))
+  }
+  <!-- <SectionTextImage sectionTitle={sections.} /> -->
+  <SectionCard
+    sectionTitle={services.sectionTitle}
+    cards={services.cards}
+    cardsPerRow={services.cardsPerRow}
+  />
+  <SectionQuote quote={testimonials[0].quote} source={testimonials[0].source} />
+  <SectionCard
+    sectionTitle={ourApproach.sectionTitle}
+    cards={ourApproach.cards}
+    cardsPerRow={ourApproach.cardsPerRow}
+  />
+  <SectionQuote quote={testimonials[1].quote} source={testimonials[1].source} />
 </Layout>
