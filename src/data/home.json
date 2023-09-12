@@ -15,8 +15,15 @@
                 "type": "text-and-image"
             },
             "content": {
-                "title": "Our Approach",
-                "body": "We love tending smaller gardens in which plants play the starring role.\n\nWe specialise in tending gardens with a natural feel - ranging from light-touch maintenance for 'wild' gardens to more designed planting schemes which mimic natural ecosystems - woodland, prairie, bog or gravel gardens.\n\nWhether working with an existing border or starting from scratch, we work to make planting schemes look as good as they can throughout the year, while providing valuable food and habitat for wildlife.\n\nDrawing on a wide plant knowledge and applying design principles, we create plant communities which look right together, and are happy in the specific conditions of your garden.\n\nThe foundation is ensuring your plants are as healthy and vigorous as possible by carefully matching plants to their environment and improving the soil with organic matter.\n\nHealthy plants not only look better for longer, they are also naturally resistant to pests, disease and the varied challenges of extreme and unpredictable weather."
+                "title": "What we do",
+                "body": "We love tending and designing smaller gardens in which plants play the starring role.\n\nDrawing on a wide plant knowledge and applying design principles, we strive to create plant communities which look right together and are happy in the specific conditions of your garden.\n\nWe specialise in gardens with a natural feel - ranging from 'wild' gardens to more carefully crafted plantings which mimic natural ecosystems - woodland, prairie, bog or gravel gardens.\n\nWhether working with an existing border or designing from scratch, we always strive to produce planting schemes which look good throughout the year, while providing valuable food and habitat for wildlife.",
+                "image": {
+                    "src": "/images/fern-geranium.jpg",
+                    "alt": "Brunnera with Euphorbia",
+                    "width": "600",
+                    "height": "800",
+                    "format": "jpg"
+                }
             }
         }
     ]
