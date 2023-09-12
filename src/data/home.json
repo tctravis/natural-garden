@@ -16,12 +16,12 @@
             },
             "content": {
                 "title": "What we do",
-                "body": "We love tending and designing smaller gardens in which plants play the starring role.\n\nDrawing on a wide plant knowledge and applying design principles, we strive to create plant communities which look right together and are happy in the specific conditions of your garden.\n\nWe specialise in gardens with a natural feel - ranging from 'wild' gardens to more carefully crafted plantings which mimic natural ecosystems - woodland, prairie, bog or gravel gardens.\n\nWhether working with an existing border or designing from scratch, we always strive to produce planting schemes which look good throughout the year, while providing valuable food and habitat for wildlife.",
+                "body": "We love tending and designing smaller gardens in which plants play the starring role.\n\nWe specialise in gardens with a natural feel - ranging from 'wild' gardens to more carefully crafted schemes which mimic natural ecosystems - woodland, prairie, bog or gravel gardens.\n\nDrawing on a wide plant knowledge and applying design principles, we strive to create plant communities which look right together and are happy in the specific conditions of your garden, while also providing food and habitat for wildlife.",
                 "image": {
-                    "src": "/images/fern-geranium.jpg",
+                    "src": "/images/brunnera-euphorbia.jpg",
                     "alt": "Brunnera with Euphorbia",
-                    "width": "600",
-                    "height": "800",
+                    "width": "800",
+                    "height": "600",
                     "format": "jpg"
                 }
             }
