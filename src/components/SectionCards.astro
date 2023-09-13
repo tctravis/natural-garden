@@ -3,15 +3,15 @@ import PageSection from "./PageSection.astro";
 import CardGrid from "./CardGrid.astro";
 import Card from "./Card.astro";
 
-const { sectionTitle = null, cards, cardsPerRow = 3 } = Astro.props;
+const { settings, content } = Astro.props;
 ---
 
 <PageSection>
   <div class="space-y-4 flex flex-col">
-    {sectionTitle && <h2 class="mx-auto text-4xl font-headers font-weight-headers">{sectionTitle}</h2>}
-    <CardGrid cardsPerRow={cardsPerRow}>
+    {content.title && <h2 class="mx-auto text-4xl font-headers font-weight-headers">{content.title}</h2>}
+    <CardGrid cardsPerRow={settings.cardsPerRow}>
       {
-        cards.map((card) => (
+        content.cards.map((card) => (
           <Card
             title={card.title}
             body={card.body}

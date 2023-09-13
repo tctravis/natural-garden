@@ -3,7 +3,7 @@ import { Image } from "@astrojs/image/components";
 
 import Layout from "../layouts/Layout.astro";
 import SectionHero from "../components/SectionHero.astro";
-import SectionCard from "../components/SectionCard.astro";
+import SectionCards from "../components/SectionCards.astro";
 import SectionQuote from "../components/SectionQuote.astro";
 import SectionTextImage from "../components/SectionTextImage.astro";
 
@@ -140,21 +140,22 @@ const testimonials = [
   </SectionHero>
   {
     sections.map((section) => (
-      section.settings.type === 'text-and-image' && <SectionTextImage settings={section.settings} content={section.content} />
-      // <div>{section.content.title}</div>
+      section.settings.type === 'text-and-image' && <SectionTextImage settings={section.settings} content={section.content} /> ||
+      section.settings.type === 'quote' && <SectionQuote settings={section.settings} content={section.content} /> ||
+      section.settings.type === 'cards' && <SectionCards settings={section.settings} content={section.content} />
     ))
   }
   <!-- <SectionTextImage sectionTitle={sections.} /> -->
-  <SectionCard
+  <!-- <SectionCards
     sectionTitle={services.sectionTitle}
     cards={services.cards}
     cardsPerRow={services.cardsPerRow}
-  />
-  <SectionQuote quote={testimonials[0].quote} source={testimonials[0].source} />
-  <SectionCard
+  /> -->
+  <!-- <SectionQuote quote={testimonials[0].quote} source={testimonials[0].source} /> -->
+  <!-- <SectionCards
     sectionTitle={ourApproach.sectionTitle}
     cards={ourApproach.cards}
     cardsPerRow={ourApproach.cardsPerRow}
-  />
-  <SectionQuote quote={testimonials[1].quote} source={testimonials[1].source} />
+  /> -->
+  <!-- <SectionQuote quote={testimonials[1].quote} source={testimonials[1].source} /> -->
 </Layout>

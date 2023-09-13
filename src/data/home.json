@@ -12,11 +12,12 @@
         },
         {
             "settings": {
-                "type": "text-and-image"
+                "type": "text-and-image",
+                "imageAlign": "left"
             },
             "content": {
-                "title": "What we do",
-                "body": "We love tending and designing smaller gardens in which plants play the starring role.\n\nWe specialise in gardens with a natural feel - ranging from 'wild' gardens to more carefully crafted schemes which mimic natural ecosystems - woodland, prairie, bog or gravel gardens.\n\nDrawing on a wide plant knowledge and applying design principles, we strive to create plant communities which look right together and are happy in the specific conditions of your garden, while also providing food and habitat for wildlife.",
+                "title": "In a nutshell...",
+                "body": "We love tending and designing smaller gardens in which plants play the starring role.\n\nWe specialise in giving gardens a natural feel - ranging from 'wild' gardens to more carefully crafted schemes inspired by natural habitats - woodland, prairie, bog or gravel gardens.\n\nDrawing on a wide plant knowledge and applying design principles, we strive to create plant communities which look great together and are happy in the specific conditions of your garden, while also providing food and habitat for wildlife.\n\nWe operate in Kendal and nearby villages.",
                 "image": {
                     "src": "/images/brunnera-euphorbia.jpg",
                     "alt": "Brunnera with Euphorbia",
@@ -24,6 +25,79 @@
                     "height": "600",
                     "format": "jpg"
                 }
+            }
+        },
+        {
+            "settings": {
+                "type": "quote"
+            },
+            "content": {
+                "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed aliquam tellus. Aliquam convallis blandit dolor, eu varius magna volutpat a.!",
+                "source": "Meg, Warton"
+            }
+        },
+        {
+            "settings": {
+                "type": "text-and-image",
+                "imageAlign": "right"
+            },
+            "content": {
+                "title": "Organic garden maintenance",
+                "body": "We offer a maintenance service informed by both practical horticultural knowledge (RHS qualified) and garden design principles (qualified to Level 3).\n\nWe provide a wide range of maintenance services for the smaller garden, with a focus on:\n\n- Herbaceous border planning and maintenance\n- Naturalistic, wildlife-friendly planting schemes\n- Small vegetable plot management\n- Soil care and preparation\n- Plant and bulb selection advice\n- Shrub and small tree pruning\n- Plant propagation\n- Small pond installation and planting\n- Wildflower lawns\n\nFor regular maintenance we charge a £25 hourly rate.",
+                "image": {
+                    "src": "/images/brunnera-euphorbia.jpg",
+                    "alt": "Brunnera with Euphorbia",
+                    "width": "800",
+                    "height": "600",
+                    "format": "jpg"
+                }
+            }
+        },
+        {
+            "settings": {
+                "type": "cards",
+                "cardsPerRow": 3
+            },
+            "content": {
+                "title": "Our Approach",
+                "cards": [
+                    {
+                        "title": "Feed your soil",
+                        "body": "A thriving garden begins with understanding your soil and its needs. We often recommend adding large amounts of organic matter, such as mushroom compost, in the early spring. This adds nutrients, suppresses weeds and helps soil retain moisture through the season.",
+                        "href": "/design",
+                        "img": {
+                            "src": "/images/sedum-geranium.jpg",
+                            "alt": "Deep purple sedum with geranium phaeum leaf",
+                            "width": 800,
+                            "height": 450,
+                            "format": "jpg"
+                        }
+                    },
+                    {
+                        "title": "Right plant, right place",
+                        "body": "From damp, shady spots to dry, sunny banks it is vital to choose plants which will thrive in the specific growing conditions of your garden. Healthy, vigorous plants are naturally more pest and drought-resistent and can often be divided to produce more plants for free!",
+                        "href": "/maintenance",
+                        "img": {
+                            "src": "/images/brunnera-euphorbia-16x9.jpg",
+                            "alt": "Brunnera and Euphorbia",
+                            "width": 800,
+                            "height": 450,
+                            "format": "jpg"
+                        }
+                    },
+                    {
+                        "title": "Work with nature",
+                        "body": "Encouraging birds, hedgehogs and frogs can help control the slug population. Selectively welcoming self-seeded plants such as Welsh poppies and foxgloves adds spontaneity to a border. We believe working with nature can be   more effective than battling for control. ",
+                        "href": "/wildlife",
+                        "img": {
+                            "src": "/images/sea-holly-moth-16x9.jpg",
+                            "alt": "Sea holly with moth on it",
+                            "width": 800,
+                            "height": 450,
+                            "format": "jpg"
+                        }
+                    }
+                ]
             }
         }
     ]
