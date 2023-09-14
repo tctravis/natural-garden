@@ -10,8 +10,8 @@ const { settings, content } = Astro.props;
 
 <PageSection>
   <div class="space-y-4 flex flex-col">
-    {content.title && <h2 class="mx-auto text-4xl font-headers font-weight-headers">{content.title}</h2>}
-    {content.body && <div class="prose text-center max-w-xl mx-auto" set:html={marked.parse(content.body)}/>}
+    {content.title && <h2 class="text-4xl sm:text-center font-headers font-weight-headers">{content.title}</h2>}
+    {content.body && <div class="prose sm:text-center sm:max-w-3xl mx-auto" set:html={marked.parse(content.body)}/>}
     <CardGrid cardsPerRow={settings.cardsPerRow}>
       {
         content.cards.map((card) => (
@@ -19,7 +19,7 @@ const { settings, content } = Astro.props;
             title={card.title}
             body={card.body}
             href={card.href}
-            img={card.img}
+            image={card.image}
           />
         ))
       }

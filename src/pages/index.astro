@@ -8,112 +8,14 @@ import SectionQuote from "../components/SectionQuote.astro";
 import SectionTextImage from "../components/SectionTextImage.astro";
 
 import { siteTitle, siteStrapline } from "../data/site.json";
-import { pageTitle, sections } from "../data/home.json";
-
-const ourApproach = {
-  sectionTitle: "Our Approach",
-  cardsPerRow: 3,
-  cards: [
-    {
-      title: "Nurture your soil",
-      body: "We often like to add plenty of compost or leaf mould to your borders to preserve moisture, surpress weeds and boost fertility. Of course, some plants and designs prefer poor soil - it's all about matching plants to their environment",
-      href: "/design",
-      img: {
-        src: "/images/sedum-geranium.jpg",
-        alt: "Deep purple sedum with geranium phaeum leaf",
-        width: 800,
-        height: 450,
-        format: "jpg",
-      },
-    },
-    {
-      title: "Right plant, right place",
-      body: "From damp, shady spots to dry, sunny banks we can advise on plants which will be happy and healthy in your garden habitat. Vigorous plants are naturally pest-resistent and can often be divided to fill out your borders for free",
-      href: "/maintenance",
-      img: {
-        src: "/images/brunnera-euphorbia-16x9.jpg",
-        alt: "Brunnera and Euphorbia",
-        width: 800,
-        height: 450,
-        format: "jpg",
-      },
-    },
-    {
-      title: "Don't over-tidy",
-      body: "Add features to enhance biodiversity - from small ponds teeming with life to wildflower micro-meadows to attract pollinators",
-      href: "/wildlife",
-      img: {
-        src: "/images/sea-holly-moth-16x9.jpg",
-        alt: "Sea holly with moth on it",
-        width: 800,
-        height: 450,
-        format: "jpg",
-      },
-    },
-  ],
-};
-
-const services = {
-  sectionTitle: "Garden Services",
-  cardsPerRow: 3,
-  cards: [
-    {
-      title: "Small garden maintenance",
-      body: "Light-touch, organic garden maintenance by an RHS-qualified gardener. With wide plant knowledge and planting design skills, we specialise in creating beautiful, naturalistic borders.",
-      href: "/maintenance",
-      img: {
-        src: "/images/brunnera-euphorbia-16x9.jpg",
-        alt: "Brunnera and Euphorbia",
-        width: 800,
-        height: 450,
-        format: "jpg",
-      },
-    },
-    {
-      title: "Wildlife-friendly features",
-      body: "We can help plan and implement features which enhance biodiversity in your garden - from small ponds teeming with life to wildflower micro-meadows to attract pollinators.",
-      href: "/wildlife",
-      img: {
-        src: "/images/sea-holly-moth-16x9.jpg",
-        alt: "Sea holly with moth on it",
-        width: 800,
-        height: 450,
-        format: "jpg",
-      },
-    },
-    {
-      title: "Garden and planting design",
-      body: "From refreshing a tired border to re-imagining your entire plot, collaborate with us to transform your garden into a wild sanctuary for both people and wildlife.",
-      href: "/design",
-      img: {
-        src: "/images/design-plantingplan.jpg",
-        alt: "Deep purple sedum with geranium phaeum leaf",
-        width: 800,
-        height: 450,
-        format: "jpg",
-      },
-    },
-  ],
-};
-const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed aliquam tellus. Aliquam convallis blandit dolor, eu varius magna volutpat a.!",
-    source: "Meg, Warton",
-  },
-  {
-    quote:
-      "Vestibulum mattis risus vel facilisis ullamcorper. Aliquam erat volutpat. Nulla facilisi. Duis vestibulum felis et iaculis accumsan.",
-    source: "Rebecca, Warton",
-  },
-];
+import { sections } from "../data/home.json";
 ---
 
 <Layout pageTitle={siteTitle}>
   <SectionHero pageTitle={siteTitle} pageSubTitle={siteStrapline} wrapperClasses="bg-[url('/images/fern-corsican-mint.jpg')] bg-cover pt-16">
     <div class="flex flex-wrap gap-4 self-start items-center justify-start">
       <div
-        class="p-2 bg-[rgba(255,255,255,0.9)] rounded-lg h-12 flex items-center justify-center gap-2"
+        class="w-full min-[420px]:w-auto p-2 bg-[rgba(255,255,255,0.9)] rounded-lg h-12 flex items-center justify-left gap-2"
       >
         <Image
           src="/images/rhs.svg"
@@ -125,7 +27,7 @@ const testimonials = [
         <p class="text-xs">RHS Horticultural Theory and Practice, Level 2</p>
       </div>
       <div
-        class="p-2 bg-[rgba(255,255,255,0.9)] rounded-lg h-12 flex items-center justify-center gap-2"
+        class="w-full min-[420px]:w-auto p-2 bg-[rgba(255,255,255,0.9)] rounded-lg h-12 flex items-center justify-left gap-2"
       >
         <Image
           src="/images/nocn-qualified.png"
