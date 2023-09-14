@@ -1,4 +1,6 @@
 ---
+import { marked } from "marked";
+
 import PageSection from "./PageSection.astro";
 import CardGrid from "./CardGrid.astro";
 import Card from "./Card.astro";
@@ -9,6 +11,7 @@ const { settings, content } = Astro.props;
 <PageSection>
   <div class="space-y-4 flex flex-col">
     {content.title && <h2 class="mx-auto text-4xl font-headers font-weight-headers">{content.title}</h2>}
+    {content.body && <div class="prose text-center max-w-xl mx-auto" set:html={marked.parse(content.body)}/>}
     <CardGrid cardsPerRow={settings.cardsPerRow}>
       {
         content.cards.map((card) => (

@@ -2,10 +2,9 @@
 import { marked } from "marked";
 
 import PageSection from "./PageSection.astro";
-import Prose from "./Prose.astro";
 import { Image } from "@astrojs/image/components";
 
-const { settings, content } = Astro.props;
+const { content } = Astro.props;
 
 const parsedBody = marked.parse(content.body);
 ---
@@ -30,7 +29,7 @@ const parsedBody = marked.parse(content.body);
                     </h2>
                 )
             }
-            <Prose set:html={parsedBody} />
+            <div class="prose" set:html={parsedBody} />
         </div>
     </div>
 </PageSection>

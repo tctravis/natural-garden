@@ -17,7 +17,7 @@
             },
             "content": {
                 "title": "In a nutshell...",
-                "body": "We love tending and designing smaller gardens in which plants play the starring role.\n\nWe specialise in giving gardens a natural feel - ranging from 'wild' gardens to more carefully crafted schemes inspired by natural habitats - woodland, prairie, bog or gravel gardens.\n\nDrawing on a wide plant knowledge and applying design principles, we strive to create plant communities which look great together and are happy in the specific conditions of your garden, while also providing food and habitat for wildlife.\n\nWe operate in Kendal and nearby villages.",
+                "body": "We love maintaining and designing smaller gardens in which plants play the starring role, and wildlife is actively encouraged.\n\nCombining practical horticultural knowledge with garden design training, we nurture plant communities which look great together and are happy in the specific conditions of your garden, while also providing food and shelter for wildlife.\n\nWe operate in Kendal and nearby villages.",
                 "image": {
                     "src": "/images/brunnera-euphorbia.jpg",
                     "alt": "Brunnera with Euphorbia",
@@ -43,7 +43,7 @@
             },
             "content": {
                 "title": "Organic garden maintenance",
-                "body": "We offer a maintenance service informed by both practical horticultural knowledge (RHS qualified) and garden design principles (qualified to Level 3).\n\nWe provide a wide range of maintenance services for the smaller garden, with a focus on:\n\n- Herbaceous border planning and maintenance\n- Naturalistic, wildlife-friendly planting schemes\n- Small vegetable plot management\n- Soil care and preparation\n- Plant and bulb selection advice\n- Shrub and small tree pruning\n- Plant propagation\n- Small pond installation and planting\n- Wildflower lawns\n\nFor regular maintenance we charge a £25 hourly rate.",
+                "body": "We offer a regular maintenance service informed by both practical horticultural knowledge (RHS Level 2 qualified) and garden design principles (qualified to Level 3).\n\nWe provide a wide range of  maintenance services for the smaller garden, with a focus on:\n\n- Border planning and maintenance\n- Small vegetable plot management\n- Soil care and preparation\n- Plant and bulb selection advice\n- Shrub and small tree pruning\n- Plant propagation\n- Small pond installation and planting\n- Wildflower lawns\n\nFor regular maintenance we charge a £25 hourly rate.",
                 "image": {
                     "src": "/images/brunnera-euphorbia.jpg",
                     "alt": "Brunnera with Euphorbia",
@@ -56,10 +56,11 @@
         {
             "settings": {
                 "type": "cards",
-                "cardsPerRow": 3
+                "cardsPerRow": 2
             },
             "content": {
-                "title": "Our Approach",
+                "title": "How does your garden grow?",
+                "body": "Gardening is a collaboration with nature, not a battle. Encouraging birds, hedgehogs and frogs can helps control slugs. Selectively welcoming self-seeders like Welsh poppies and foxgloves adds an element of spontaneity. Neat and tidy doesn't always do it.",
                 "cards": [
                     {
                         "title": "Feed your soil",
@@ -75,7 +76,7 @@
                     },
                     {
                         "title": "Right plant, right place",
-                        "body": "From damp, shady spots to dry, sunny banks it is vital to choose plants which will thrive in the specific growing conditions of your garden. Healthy, vigorous plants are naturally more pest and drought-resistent and can often be divided to produce more plants for free!",
+                        "body": "From damp, shady spots to dry, sunny banks it is vital to choose plants which will thrive in the specific growing conditions of your garden. Healthy, vigorous plants are naturally more pest and drought-resistent and can often be divided to produce more plants for your garden.",
                         "href": "/maintenance",
                         "img": {
                             "src": "/images/brunnera-euphorbia-16x9.jpg",
@@ -84,16 +85,61 @@
                             "height": 450,
                             "format": "jpg"
                         }
+                    }
+                ]
+            }
+        },
+        {
+            "settings": {
+                "type": "quote"
+            },
+            "content": {
+                "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed aliquam tellus. Aliquam convallis blandit dolor, eu varius magna volutpat a.!",
+                "source": "Rebecca, Warton"
+            }
+        },
+        {
+            "settings": {
+                "type": "cards",
+                "cardsPerRow": 3
+            },
+            "content": {
+                "title": "Garden design",
+                "body": "Are you looking to have your garden re-designed in a way that balances the needs of the people who use it and the wildlife which inhabits it? Do you want help creating a resilient, biodiverse garden which also expresses your own personality and tastes?",
+                "cards": [
+                    {
+                        "title": "Planting plans",
+                        "body": "Producing detailed planting plans for your borders ensures that they look great through the year, while avoiding wasting time and money on plants which fail to thrive in your garden's conditions or only make a visual contribution for a short time. ",
+                        "href": "/design",
+                        "img": {
+                            "src": "/images/planting-plan.jpg",
+                            "alt": "Planting plan for courtyard garden",
+                            "width": 470,
+                            "height": 264,
+                            "format": "jpg"
+                        }
                     },
                     {
-                        "title": "Work with nature",
-                        "body": "Encouraging birds, hedgehogs and frogs can help control the slug population. Selectively welcoming self-seeded plants such as Welsh poppies and foxgloves adds spontaneity to a border. We believe working with nature can be   more effective than battling for control. ",
+                        "title": "Garden designs",
+                        "body": "If you want to remodel your whole or part of your garden, however small, we can produce detailed plans which can be used by landscapers as construction blueprints. We collaborate with you at every stage to produce a design which meets your aesthetic, practical and ethical requirements.",
+                        "href": "/maintenance",
+                        "img": {
+                            "src": "/images/garden-design.jpg",
+                            "alt": "Garden design for large garden",
+                            "width": 470,
+                            "height": 264,
+                            "format": "jpg"
+                        }
+                    },
+                    {
+                        "title": "Baslow community orchard",
+                        "body": "We were commissioned to produce plans and sketches for a proposed community orchard in a Peak District village. The designs helped secure local support and funding, and the orchard is now a much-loved and fruitful communal space.",
                         "href": "/wildlife",
                         "img": {
-                            "src": "/images/sea-holly-moth-16x9.jpg",
-                            "alt": "Sea holly with moth on it",
-                            "width": 800,
-                            "height": 450,
+                            "src": "/images/baslow-orchard-02.jpg",
+                            "alt": "Baslow community orchard sketch",
+                            "width": 470,
+                            "height": 264,
                             "format": "jpg"
                         }
                     }
