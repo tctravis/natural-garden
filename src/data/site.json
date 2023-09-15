@@ -1,7 +1,9 @@
 {
     "siteTitle": "Wild Patch Gardens",
-    "siteStrapline": "Garden maintenance and design by an RHS-qualified organic gardener. Specialising in wildlife gardens, naturalistic planting schemes and sustainable garden design.",
+    "siteSubTitle": null,
+    "siteStrapline": "Garden <a href=\"#garden-maintenance\">maintenance</a> and <a href=\"#garden-design\">design</a> by an RHS-qualified organic gardener. Specialising in wildlife gardens, naturalistic planting and sustainable garden design.",
     "siteEmail": "tobytravis@gmail.com",
+    "siteTel": "07835848222",
     "theme": {
         "bg" : {
             "odd-row": "odd:bg-lime-50",

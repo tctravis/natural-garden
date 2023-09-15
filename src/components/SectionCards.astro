@@ -8,7 +8,7 @@ import Card from "./Card.astro";
 const { settings, content } = Astro.props;
 ---
 
-<PageSection>
+<PageSection settings={settings}>
   <div class="space-y-4 flex flex-col">
     {content.title && <h2 class="text-4xl sm:text-center font-headers font-weight-headers">{content.title}</h2>}
     {content.body && <div class="prose sm:text-center sm:max-w-3xl mx-auto" set:html={marked.parse(content.body)}/>}

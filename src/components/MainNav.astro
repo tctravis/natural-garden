@@ -1,8 +1,11 @@
 ---
 const { class:className } = Astro.props;
+
+import { siteEmail, siteTel } from "../data/site.json";
 ---
 <nav class:list={[className, 'flex', 'gap-x-4', 'items-center']}>
-    <a href="/about">About</a>
-    <a href="/gallery">Services</a>
-    <a href="/contact">Contact</a>
+    <!-- <a href="/about">Design</a>
+    <a href="/gallery">Maintenance</a> -->
+    <a href={`mailto:${siteEmail}`}>{siteEmail}</a>
+    <a href={`tel:${siteTel}`}>{siteTel}</a>
 </nav>

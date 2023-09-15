@@ -3,21 +3,13 @@
     "sections": [
         {
             "settings": {
-                "type": "hero"
-            },
-            "content": {
-                "title": "Our Approach",
-                "body": "We love tending smaller gardens in which plants play the starring role. \nWhether working with an existing border or starting from scratch, we love making planting schemes look as good as they can throughout the year.\nWith a wide plant knowledge and understanding of planting design principles, we can work with you to create plant communities which look right together, and are happy in the specific conditions of your garden.\nOur primary goal is to ensure your plants are as healthy and vigorous as possible. This is achieved through carefully matching plants to their environment and improving the soil with organic matter.  \nThriving plants not only look better for longer, they are also naturally resistant to pests, disease and the varied challenges of extreme and unpredictable weather.\nWe specialise in tending gardens with a natural feel - ranging from light-touch maintenance for 'wild' gardens to more designed planting schemes which mimic natural ecosystems - woodland, prairie, bog or gravel gardens."
-            }
-        },
-        {
-            "settings": {
+                "sectionId": "what-we-do",
                 "type": "text-and-image",
                 "imageAlign": "left"
             },
             "content": {
                 "title": "What we do",
-                "body": "We love designing and maintaining smaller gardens in which plants play the starring role, and wildlife is actively encouraged.\n\nCombining practical horticultural knowledge with garden design training, we nurture plant communities which look great together and are happy in the specific conditions of your garden.\n\nOur services cover both regular maintenance and one-off garden design projects. We operate in Kendal and nearby villages.",
+                "body": "We love designing and maintaining smaller gardens in which plants play the starring role, and wildlife is actively encouraged.\n\nCombining practical horticultural knowledge (RHS qualified) with garden design training, we nurture plant communities which look great together and are happy in the specific conditions of your garden.\n\nOur services cover both regular maintenance and one-off garden design projects. We operate in Kendal and nearby villages.",
                 "image": {
                     "src": "/images/geranium-ferns.jpg",
                     "alt": "Shade-loving plant combination",
@@ -39,12 +31,13 @@
         },
         {
             "settings": {
+                "sectionId": "garden-maintenance",
                 "type": "text-and-image",
                 "imageAlign": "right"
             },
             "content": {
                 "title": "Organic garden maintenance",
-                "body": "We offer a regular maintenance service informed by both practical horticultural knowledge (RHS qualified to Level 2) and garden design principles (NOCN qualified to Level 3).\n\nWe provide a wide range of  maintenance services for the smaller garden, with a focus on:\n\n- Border planning and maintenance\n- Soil care and preparation\n- Plant and bulb selection advice\n- Shrub and small tree pruning\n- Small vegetable plot management\n- Plant propagation\n- Small pond installation and planting\n- Wildflower lawns\n\nFor regular maintenance we charge a £25 hourly rate (2023).",
+                "body": "We offer a regular maintenance service informed by both practical horticultural knowledge and garden design principles.\n\nWe provide a wide range of  maintenance services for the smaller garden, with a focus on:\n\n- Border planning and maintenance\n- Soil care and preparation\n- Plant and bulb selection advice\n- Shrub and small tree pruning\n- Small vegetable plot management\n- Plant propagation\n- Small pond installation and planting\n- Wildflower lawns\n\nFor regular maintenance we charge a £25 hourly rate (2023).",
                 "image": {
                     "src": "/images/allotment-planting.jpg",
                     "alt": "Wildlife-friendly planting scheme",
@@ -57,11 +50,12 @@
         },
         {
             "settings": {
+                "sectionId": "our-approach",
                 "type": "cards",
                 "cardsPerRow": 2
             },
             "content": {
-                "title": "How does your garden grow?",
+                "title": "Our approach",
                 "body": "Gardening is a collaboration with nature, not a battle. Encouraging birds, hedgehogs and frogs can helps control slugs. Selectively welcoming self-seeders like Welsh poppies and foxgloves adds an element of spontaneity. Neat and tidy doesn't always do it.",
                 "cards": [
                     {
@@ -102,6 +96,7 @@
         },
         {
             "settings": {
+                "sectionId": "garden-design",
                 "type": "cards",
                 "cardsPerRow": 2
             },

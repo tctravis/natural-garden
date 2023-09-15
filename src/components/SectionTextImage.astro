@@ -11,7 +11,7 @@ const parsedBody = marked.parse(content.body);
 const imagePosClass = settings.imageAlign === 'left' ? 'sm:order-first' : null
 ---
 
-<PageSection>
+<PageSection settings={settings}>
     <div class="flex flex-col sm:flex-row gap-6">
         <div class:list={['sm:w-1/3 order-last', imagePosClass]}>
             <Figure
