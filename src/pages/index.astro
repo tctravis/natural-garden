@@ -7,12 +7,17 @@ import SectionCards from "../components/SectionCards.astro";
 import SectionQuote from "../components/SectionQuote.astro";
 import SectionTextImage from "../components/SectionTextImage.astro";
 
-import { siteTitle, siteStrapline } from "../data/site.json";
+import { siteTitle, siteSubTitle, siteStrapline } from "../data/site.json";
 import { sections } from "../data/home.json";
 ---
 
 <Layout pageTitle={siteTitle}>
-  <SectionHero pageTitle={siteTitle} pageSubTitle={siteStrapline} wrapperClasses="bg-[url('/images/fern-corsican-mint.jpg')] bg-cover pt-16">
+  <SectionHero
+    pageTitle={siteTitle}
+    pageSubTitle={siteSubTitle}
+    pageStrapline={siteStrapline}
+    wrapperClasses="bg-[url('/images/fern-corsican-mint.jpg')] bg-cover pt-16"
+  >
     <div class="flex flex-wrap gap-4 self-start items-center justify-start">
       <div
         class="w-full min-[420px]:w-auto p-2 bg-[rgba(255,255,255,0.9)] rounded-lg h-12 flex items-center justify-left gap-2"
@@ -41,11 +46,21 @@ import { sections } from "../data/home.json";
     </div>
   </SectionHero>
   {
-    sections.map((section) => (
-      section.settings.type === 'text-and-image' && <SectionTextImage settings={section.settings} content={section.content} /> ||
-      section.settings.type === 'quote' && <SectionQuote settings={section.settings} content={section.content} /> ||
-      section.settings.type === 'cards' && <SectionCards settings={section.settings} content={section.content} />
-    ))
+    sections.map(
+      (section) =>
+        (section.settings.type === "text-and-image" && (
+          <SectionTextImage
+            settings={section.settings}
+            content={section.content}
+          />
+        )) ||
+        (section.settings.type === "quote" && (
+          <SectionQuote settings={section.settings} content={section.content} />
+        )) ||
+        (section.settings.type === "cards" && (
+          <SectionCards settings={section.settings} content={section.content} />
+        ))
+    )
   }
   <!-- <SectionTextImage sectionTitle={sections.} /> -->
   <!-- <SectionCards
