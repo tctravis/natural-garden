@@ -1,14 +1,17 @@
 ---
 import Container from "./Container.astro";
 
-import { siteTitle, siteEmail } from "../data/site.json";
+import { siteTitle, siteEmail, siteTel } from "../data/site.json";
 ---
 
 <footer class="Footer py-8 bg-gradient-to-l from-slate-700 to-slate-950 text-footer-text">
   <Container>
-    <div class="sm:flex justify-between">
+    <div class="flex gap-4 flex-wrap">
       <p>&copy;2023 {siteTitle}</p>
+      <div class="flex gap-4 items-center ml-auto">
       <a href={`mailto:${siteEmail}`}>{siteEmail}</a>
+      <a href={`mailto:${siteTel}`}>{siteTel}</a>
+    </div>
     </div>
   </Container>
 </footer>
