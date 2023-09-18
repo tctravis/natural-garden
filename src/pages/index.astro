@@ -6,6 +6,7 @@ import SectionHero from "../components/SectionHero.astro";
 import SectionCards from "../components/SectionCards.astro";
 import SectionQuote from "../components/SectionQuote.astro";
 import SectionTextImage from "../components/SectionTextImage.astro";
+import SectionGallery from "../components/SectionGallery.astro";
 
 import { siteTitle, siteSubTitle, siteStrapline } from "../data/site.json";
 import { sections } from "../data/home.json";
@@ -59,6 +60,9 @@ import { sections } from "../data/home.json";
         )) ||
         (section.settings.type === "cards" && (
           <SectionCards settings={section.settings} content={section.content} />
+        )) ||
+        (section.settings.type === "gallery" && (
+          <SectionGallery settings={section.settings} content={section.content} />
         ))
     )
   }

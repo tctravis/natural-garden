@@ -9,14 +9,14 @@
             },
             "content": {
                 "title": "What we do",
-                "body": "We <a href=\"#garden-design\">design</a> and <a href=\"#garden-maintenance\">maintain</a> smaller gardens in which plants play the starring role, and wildlife is actively encouraged.\n\nCombining practical horticultural knowledge (RHS qualified) with <a href=\"#garden-design\">garden design</a> training, we nurture plant communities which both look right together and are happy in the micro-climate of your garden.\n\nWe practise nature-friendly gardening methods - from simple things such as leaving leaves on borders and seed-heads in place over winter - to establishing mini-habitats such as small ponds or wild areas.\n\nOur services include both regular maintenance and one-off design projects. We operate in Kendal and nearby villages.",
+                "body": "We <a href=\"#garden-design\">design</a> and <a href=\"#garden-maintenance\">maintain</a> smaller gardens in which plants play the starring role, and wildlife is actively encouraged.\n\nCombining practical horticultural knowledge (RHS qualified) with <a href=\"#garden-design\">garden design</a> training, we nurture plant communities which both look right together and thrive in the micro-climates of your garden.\n\nWe practise nature-friendly gardening methods - from simple things such as leaving leaves on borders and seed-heads in place over winter - to establishing mini-habitats such as small ponds or wild areas.\n\nOur services include both <a href=\"#garden-maintenance\">regular maintenance</a> and <a href=\"#garden-design\">one-off design projects</a>. We operate in Kendal and nearby villages.",
                 "image": {
                     "src": "/images/geranium-ferns.jpg",
                     "alt": "Shade-loving plant combination",
                     "width": "610",
                     "height": "610",
                     "format": "jpg",
-                    "caption": "Shade-loving plant combination"
+                    "caption": "Contrasting foliage textures - hostas, ferns and Geranium macrorrhizum 'Album'"
                 }
             }
         },
@@ -39,12 +39,12 @@
                 "title": "Organic garden maintenance",
                 "body": "We provide a wide range of regular maintenance services for the smaller garden, with a focus on:\n\n- Border planning and maintenance\n- Soil care and preparation\n- Plant and bulb selection advice\n- Shrub and small tree pruning\n- Small vegetable plot management\n- Plant propagation\n- Small pond installation and planting\n- Wildflower lawns\n\nFor regular maintenance we charge a £25 hourly rate (2023).\n\nPlease <a href=\"tel:07835848222\">call</a> or <a href=\"mailto:tobytravis@gmail.com\">email</a> to discuss your requirements.",
                 "image": {
-                    "src": "/images/allotment-planting.jpg",
-                    "alt": "Wildlife-friendly planting scheme",
+                    "src": "/images/oxeye-daisies.jpg",
+                    "alt": "Oxeye daisies alongside driveway",
                     "width": "610",
                     "height": "610",
                     "format": "jpg",
-                    "caption": "Sedum, Helenium, Echinacea, Echinops"
+                    "caption": "Oxeye daisies against a backdrop of Hydrangea aspera subsp. sargentiana and other shade-lovers"
                 }
             }
         },
@@ -52,7 +52,7 @@
             "settings": {
                 "sectionId": "our-approach",
                 "type": "cards",
-                "cardsPerRow": 2
+                "itemsPerRow": 2
             },
             "content": {
                 "title": "Our approach",
@@ -61,7 +61,7 @@
                         "title": "Feed your soil",
                         "body": "A thriving garden begins with understanding your soil and its needs. We often recommend adding large amounts of organic matter, such as mushroom compost, in the early spring. This adds nutrients, suppresses weeds and helps soil retain moisture through the season.",
                         "image": {
-                            "src": "/images/sedum-geranium.jpg",
+                            "src": "/images/wheelbarrow.jpg",
                             "alt": "Deep purple sedum with geranium phaeum leaf",
                             "width": 800,
                             "height": 450,
@@ -88,14 +88,14 @@
             },
             "content": {
                 "quote": "Toby is a knowledgeable plantsman, trustworthy and reliable. I’ve very much enjoyed working with him to develop ideas and planting schemes. I wouldn’t hesitate to recommend him.",
-                "source": "Emmna, Kendal"
+                "source": "Emma, Kendal"
             }
         },
         {
             "settings": {
                 "sectionId": "garden-design",
                 "type": "cards",
-                "cardsPerRow": 2
+                "itemsPerRow": 2
             },
             "content": {
                 "title": "Garden and planting design",
@@ -125,7 +125,7 @@
                     },
                     {
                         "title": "Kendal back garden",
-                        "body": "We designed a complete garden layout and planting scheme for a small back garden as part of a renovation project. The challenge was to combine lush planting alongside an occasional parking area, lawn for play and patio for entertaining.",
+                        "body": "We designed a complete garden layout and planting scheme for a small back garden as part of a renovation project. The challenge was to combine bird and pollinator-friendly planting alongside an occasional parking area, lawn for play and patio for entertaining.",
                         "image": {
                             "src": "/images/back-garden-02.jpg",
                             "alt": "Kendal back garden",
@@ -144,6 +144,75 @@
                             "height": 343,
                             "format": "jpg"
                         }
+                    }
+                ]
+            }
+        },
+        {
+            "settings": {
+                "type": "quote"
+            },
+            "content": {
+                "quote": "Moving house and gaining a wonderful wild garden I wanted help to achieve many different aims - gardening for produce, for wildlife, for safe play areas, and for beauty. Toby has offered lots of practical support, also listens to my ideas and suggests ways to plant imaginatively and support wildlife and create flow and balance in planting.",
+                "source": "Sally, Staveley"
+            }
+        },
+        {
+            "settings": {
+                "sectionId": "planting-ideas",
+                "type": "gallery",
+                "itemsPerRow": 3 
+            },
+            "content": {
+                "title": "Ideas gallery",
+                "images": [
+                    {
+                        "src": "/images/late-summer-planting.jpg",
+                        "alt": "Late summer planting - rudbeckia, Phlomis, Aster 'Monch' and grasses",
+                        "width": 610,
+                        "height": 458,
+                        "format": "jpg",
+                        "caption": "Late summer planting - rudbeckia, Phlomis, Aster 'Monch' and grasses"
+                    },
+                    {
+                        "src": "/images/wildflower-planting.jpg",
+                        "alt": "The jewel box effect of an annual and perennial wildflower seed mix",
+                        "width": 610,
+                        "height": 458,
+                        "format": "jpg",
+                        "caption": "The jewel box effect of an annual and perennial wildflower seed mix"
+                    },
+                    {
+                        "src": "/images/spring-foliage.jpg",
+                        "alt": "Lush spring foliage effect with hostas, grasses, vinca minor and astrantias",
+                        "width": 610,
+                        "height": 458,
+                        "format": "jpg",
+                        "caption": "Lush spring foliage effect with hostas, grasses, vinca minor and astrantias"
+                    },
+                    {
+                        "src": "/images/full-sun-design-sketch.jpg",
+                        "alt": "Sketch design for dry, sunny border featuring globe artichokes and Euphorbia characias",
+                        "width": 610,
+                        "height": 458,
+                        "format": "jpg",
+                        "caption": "Sketch design for dry, sunny border featuring globe artichokes and Euphorbia characias"
+                    },
+                    {
+                        "src": "/images/pollinator-friendly-planting.jpg",
+                        "alt": "A pollinator-friendly planting with echinops, sedum, helenium and echinacea",
+                        "width": 610,
+                        "height": 458,
+                        "format": "jpg",
+                        "caption": "A pollinator-friendly planting with echinops, sedum, helenium and echinacea"
+                    },
+                    {
+                        "src": "/images/foliage-colour-texture.jpg",
+                        "alt": "A pollinator-friendly planting with echinops, sedum, helenium and echinacea",
+                        "width": 610,
+                        "height": 458,
+                        "format": "jpg",
+                        "caption": "A pollinator-friendly planting with echinops, sedum, helenium and echinacea"
                     }
                 ]
             }
