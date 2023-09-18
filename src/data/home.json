@@ -9,7 +9,7 @@
             },
             "content": {
                 "title": "What we do",
-                "body": "We <a href=\"#garden-design\">design</a> and <a href=\"#garden-maintenance\">maintain</a> smaller gardens in which plants play the starring role, and wildlife is actively encouraged.\n\nCombining practical horticultural knowledge (RHS qualified) with <a href=\"#garden-design\">garden design</a> training, we nurture plant communities which both look right together and are happy in the micro-climate of your garden.\n\nWe believe working with nature is more effective than battling for control... etc etc\n\nOur services include both regular maintenance and one-off design projects. We operate in Kendal and nearby villages.",
+                "body": "We <a href=\"#garden-design\">design</a> and <a href=\"#garden-maintenance\">maintain</a> smaller gardens in which plants play the starring role, and wildlife is actively encouraged.\n\nCombining practical horticultural knowledge (RHS qualified) with <a href=\"#garden-design\">garden design</a> training, we nurture plant communities which both look right together and are happy in the micro-climate of your garden.\n\nWe practise nature-friendly gardening methods - from simple things such as leaving leaves on borders and seed-heads in place over winter - to establishing mini-habitats such as small ponds or wild areas.\n\nOur services include both regular maintenance and one-off design projects. We operate in Kendal and nearby villages.",
                 "image": {
                     "src": "/images/geranium-ferns.jpg",
                     "alt": "Shade-loving plant combination",
@@ -60,7 +60,6 @@
                     {
                         "title": "Feed your soil",
                         "body": "A thriving garden begins with understanding your soil and its needs. We often recommend adding large amounts of organic matter, such as mushroom compost, in the early spring. This adds nutrients, suppresses weeds and helps soil retain moisture through the season.",
-                        "href": "/design",
                         "image": {
                             "src": "/images/sedum-geranium.jpg",
                             "alt": "Deep purple sedum with geranium phaeum leaf",
@@ -72,7 +71,6 @@
                     {
                         "title": "Right plant, right place",
                         "body": "From damp, shady spots to dry, sunny banks it is vital to choose plants which will thrive in the specific growing conditions of your garden. Healthy, vigorous plants are naturally more pest and drought-resistent and can often be divided to produce more plants for your garden.",
-                        "href": "/maintenance",
                         "image": {
                             "src": "/images/brunnera-euphorbia-16x9.jpg",
                             "alt": "Brunnera and Euphorbia",
@@ -106,7 +104,6 @@
                     {
                         "title": "Planting plans",
                         "body": "Producing detailed planting plans for your borders ensures that they look great through the year, while avoiding wasting time and money on plants which fail to thrive in your garden's conditions or only make a visual contribution for a short time. ",
-                        "href": "/design",
                         "image": {
                             "src": "/images/planting-plan.jpg",
                             "alt": "Planting plan for courtyard garden",
@@ -118,7 +115,6 @@
                     {
                         "title": "Garden designs",
                         "body": "If you want to remodel your whole or part of your garden, however small, we can produce detailed plans which can be used by landscapers as construction blueprints. We collaborate with you at every stage to produce a design which meets your aesthetic, practical and ethical requirements.",
-                        "href": "/maintenance",
                         "image": {
                             "src": "/images/garden-design.jpg",
                             "alt": "Garden design for large garden",
@@ -130,7 +126,6 @@
                     {
                         "title": "Kendal back garden",
                         "body": "We designed a complete garden layout and planting scheme for a small back garden as part of a renovation project. The challenge was to combine lush planting alongside an occasional parking area, lawn for play and patio for entertaining.",
-                        "href": "/wildlife",
                         "image": {
                             "src": "/images/back-garden-02.jpg",
                             "alt": "Kendal back garden",
@@ -142,7 +137,6 @@
                     {
                         "title": "Baslow community orchard",
                         "body": "We were commissioned to produce plans and sketches for a proposed community orchard in a Peak District village. The designs helped secure local support and funding, and the orchard is now a much-loved and fruitful communal space.",
-                        "href": "/wildlife",
                         "image": {
                             "src": "/images/baslow-orchard-02.jpg",
                             "alt": "Baslow community orchard sketch",
