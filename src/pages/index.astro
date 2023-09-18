@@ -3,22 +3,25 @@ import { Image } from "@astrojs/image/components";
 
 import Layout from "../layouts/Layout.astro";
 import SectionHero from "../components/SectionHero.astro";
-import SectionCards from "../components/SectionCards.astro";
-import SectionQuote from "../components/SectionQuote.astro";
-import SectionTextImage from "../components/SectionTextImage.astro";
-import SectionGallery from "../components/SectionGallery.astro";
+import Sections from "../components/Sections.astro";
 
 import { siteTitle, siteSubTitle, siteStrapline } from "../data/site.json";
+const heroSection = {
+  settings: {
+    wrapperClasses: "bg-[url('/images/fern-corsican-mint.jpg')] bg-cover pt-16",
+  },
+  content: {
+    pageTitle: siteTitle,
+    pageSubTitle: siteSubTitle,
+    pageStrapline: siteStrapline,
+  },
+};
+
 import { sections } from "../data/home.json";
 ---
 
 <Layout pageTitle={siteTitle}>
-  <SectionHero
-    pageTitle={siteTitle}
-    pageSubTitle={siteSubTitle}
-    pageStrapline={siteStrapline}
-    wrapperClasses="bg-[url('/images/fern-corsican-mint.jpg')] bg-cover pt-16"
-  >
+  <SectionHero content={heroSection.content} settings={heroSection.settings}>
     <div class="flex flex-wrap gap-4 self-start items-center justify-start">
       <div
         class="w-full min-[420px]:w-auto p-2 bg-[rgba(255,255,255,0.9)] rounded-lg h-12 flex items-center justify-left gap-2"
@@ -46,24 +49,5 @@ import { sections } from "../data/home.json";
       </div>
     </div>
   </SectionHero>
-  {
-    sections.map(
-      (section) =>
-        (section.settings.type === "text-and-image" && (
-          <SectionTextImage
-            settings={section.settings}
-            content={section.content}
-          />
-        )) ||
-        (section.settings.type === "quote" && (
-          <SectionQuote settings={section.settings} content={section.content} />
-        )) ||
-        (section.settings.type === "cards" && (
-          <SectionCards settings={section.settings} content={section.content} />
-        )) ||
-        (section.settings.type === "gallery" && (
-          <SectionGallery settings={section.settings} content={section.content} />
-        ))
-    )
-  }
+  <Sections sections={sections} />
 </Layout>
