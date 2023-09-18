@@ -127,7 +127,7 @@
                         "title": "Kendal back garden",
                         "body": "We designed a complete garden layout and planting scheme for a small back garden as part of a renovation project. The challenge was to combine bird and pollinator-friendly planting alongside an occasional parking area, lawn for play and patio for entertaining.",
                         "image": {
-                            "src": "/images/back-garden-02.jpg",
+                            "src": "/images/back-garden.jpg",
                             "alt": "Kendal back garden",
                             "width": 607,
                             "height": 343,
@@ -164,7 +164,7 @@
                 "itemsPerRow": 3 
             },
             "content": {
-                "title": "Ideas gallery",
+                "title": "Gallery",
                 "images": [
                     {
                         "src": "/images/late-summer-planting.jpg",
