@@ -1,7 +1,8 @@
 ---
 import Container from "../components/Container.astro";
 
-const { Element = 'section', settings = {} } = Astro.props;
+const { element = 'section', settings = {} } = Astro.props;
+const Element = element
 
 const sectionId = {
     ...(settings.sectionId && { "id": `${settings.sectionId}` })
