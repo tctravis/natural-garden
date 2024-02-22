@@ -3,6 +3,15 @@
     "sections": [
         {
             "settings": {
+                "type": "quote"
+            },
+            "content": {
+                "quote": "Since Toby took on our garden 16 months ago, it has, quite literally, blossomed. The patience, imagination and wealth of knowledge he has brought to both maintenance and development of the garden has absolutely transformed it, and it is a delight to see it taking shape.",
+                "source": "Rebecca, Warton"
+            }
+        },
+        {
+            "settings": {
                 "sectionId": "what-we-do",
                 "type": "text-and-image",
                 "imageAlign": "left"
@@ -25,8 +34,8 @@
                 "type": "quote"
             },
             "content": {
-                "quote": "Since Toby took on our garden 16 months ago, it has, quite literally, blossomed. The patience, imagination and wealth of knowledge he has brought to both maintenance and development of the garden has absolutely transformed it, and it is a delight to see it taking shape.",
-                "source": "Rebecca, Warton"
+                "quote": "Toby is a knowledgeable plantsman, trustworthy and reliable. I’ve very much enjoyed working with him to develop ideas and planting schemes. I wouldn’t hesitate to recommend him.",
+                "source": "Emma, Kendal"
             }
         },
         {
@@ -80,15 +89,6 @@
                         }
                     }
                 ]
-            }
-        },
-        {
-            "settings": {
-                "type": "quote"
-            },
-            "content": {
-                "quote": "Toby is a knowledgeable plantsman, trustworthy and reliable. I’ve very much enjoyed working with him to develop ideas and planting schemes. I wouldn’t hesitate to recommend him.",
-                "source": "Emma, Kendal"
             }
         },
         {
